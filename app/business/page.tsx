@@ -13,7 +13,7 @@ import {
 import { PhantomWalletAdapter } from "@solana/wallet-adapter-wallets";
 import { DashboardLayout } from "../components/DashboardLayout";
 import { clusterApiUrl } from "@solana/web3.js";
-import { dummyBusiness, dummyLeaderboard } from "./data/dummyData";
+import { dummyBusiness, dummyLeaderboard } from "../data/dummyData";
 
 export default function BusinessDashboard() {
   const network = WalletAdapterNetwork.Devnet;

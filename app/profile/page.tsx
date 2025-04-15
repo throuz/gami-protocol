@@ -26,11 +26,12 @@ export default function ProfilePage() {
               <span className="text-3xl font-bold">👤</span>
             </div>
             <div>
-              <h2 className="text-2xl font-bold">{dummyUser.id}</h2>
+              <h2 className="text-2xl font-bold">{dummyUser.name}</h2>
               <p className="text-purple-400 font-bold">
                 Level {dummyUser.level}
               </p>
               <p className="text-gray-400">{totalXP} Total XP</p>
+              <p className="text-sm text-gray-400">{dummyUser.wallet}</p>
             </div>
           </div>
         </div>

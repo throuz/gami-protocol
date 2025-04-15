@@ -1,5 +1,6 @@
 export interface User {
   id: string;
+  name: string;
   wallet: string;
   xp: number;
   level: number;
@@ -33,6 +34,7 @@ export interface Business {
 // Dummy data
 export const dummyUser: User = {
   id: "1",
+  name: "John Doe",
   wallet: "8xQhW...3fK9p",
   xp: 1250,
   level: 3,
@@ -71,6 +73,7 @@ export const dummyUser: User = {
 export const dummyLeaderboard: User[] = [
   {
     id: "1",
+    name: "John Doe",
     wallet: "8xQhW...3fK9p",
     xp: 1250,
     level: 3,
@@ -79,6 +82,7 @@ export const dummyLeaderboard: User[] = [
   },
   {
     id: "2",
+    name: "Alice",
     wallet: "5yRtE...7hJ2m",
     xp: 980,
     level: 2,
@@ -87,6 +91,7 @@ export const dummyLeaderboard: User[] = [
   },
   {
     id: "3",
+    name: "Bob",
     wallet: "3kLpN...9vB4q",
     xp: 750,
     level: 2,
