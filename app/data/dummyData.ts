@@ -100,6 +100,43 @@ export const dummyLeaderboard: User[] = [
   },
 ];
 
+// Adding more dummy data for users, leaderboard, and businesses
+export const additionalDummyUsers: User[] = [
+  {
+    id: "4",
+    name: "Charlie",
+    wallet: "2xYhW...8fL9p",
+    xp: 600,
+    level: 1,
+    rewards: [
+      {
+        id: "4",
+        name: "First Purchase",
+        description: "Made the first purchase",
+        points: 30,
+        claimed: true,
+      },
+    ],
+    activities: [
+      {
+        id: "3",
+        type: "First Purchase",
+        points: 30,
+        timestamp: "2024-03-21T12:00:00Z",
+      },
+    ],
+  },
+  {
+    id: "5",
+    name: "Diana",
+    wallet: "7zRtE...1hJ2m",
+    xp: 450,
+    level: 1,
+    rewards: [],
+    activities: [],
+  },
+];
+
 export const dummyBusiness: Business = {
   id: "1",
   name: "Demo Business",
@@ -129,3 +166,36 @@ export const dummyBusiness: Business = {
     },
   ],
 };
+
+export const additionalDummyBusinesses: Business[] = [
+  {
+    id: "2",
+    name: "Tech Innovators",
+    totalUsers: 200,
+    activeUsers: 120,
+    rewards: [
+      {
+        id: "4",
+        name: "Innovator Badge",
+        description: "Awarded for innovative ideas",
+        points: 150,
+        claimed: false,
+      },
+    ],
+  },
+  {
+    id: "3",
+    name: "Green Earth",
+    totalUsers: 300,
+    activeUsers: 180,
+    rewards: [
+      {
+        id: "5",
+        name: "Eco Warrior",
+        description: "Promote eco-friendly practices",
+        points: 200,
+        claimed: false,
+      },
+    ],
+  },
+];
